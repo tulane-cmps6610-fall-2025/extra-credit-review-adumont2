@@ -30,7 +30,8 @@ $$\lim_{n \to \infty} \frac{C \ln n}{k n}$$
 - Apply L'Hopital's Rule: Take the derivative with respect to $n$ of the numerator and the denominator separately.
    - Numerator: $\frac{d}{dn}(C \ln n) = \frac{C}{n}$
    - Denominator: $\frac{d}{dn}(k n) = k$
-   - Evaluate the New Limit:$$\lim_{n \to \infty} \frac{\frac{C}{n}}{k} = \lim_{n \to \infty} \frac{C}{k n}$$Conclusion:As $n \to \infty$, the term $\frac{C}{kn}$ clearly goes to 0.
+   - Evaluate the New Limit:$$\lim_{n \to \infty} \frac{\frac{C}{n}}{k} = \lim_{n \to \infty} \frac{C}{k n}$$
+   Hence, as $n \to \infty$, the term $\frac{C}{kn}$ clearly goes to 0.
 
 As $n \rightarrow \infty$, this probability approaches 0. The probability is bounded by $O(\frac{\log n}{n})$.
 - 3b.
