@@ -9,7 +9,7 @@ In this extra credit assignment, we will test and review concepts you
 
 
 1. **Algorithmic Paradigms**
-
+My favorite algorithmic paradigm is Dynamic Programming (DP). I think inituitively it is very interesting and elegant. More specifically, it is fascinating because it allows us to solve problems that initially appear to require exponential time (like $O(2^n)$) by identifying overlapping subproblems. By simply caching (memoizing) the results of these subproblems or building them iteratively (tabulation), we can reduce the complexity to polynomial time (often $O(n^2)$ or $O(n^3)$). DP effectively illustrates the trade-off between space and time.
 
 
 2. **Divide and Conquer**
